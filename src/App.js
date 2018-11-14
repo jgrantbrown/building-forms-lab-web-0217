@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <BandInput store={this.props.store} />
         <Bands store={this.props.store}/>
+
       </div>
     );
   }
